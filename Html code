@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PIZZA ORDER WEBSITE</title>
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="stylesheet" href="./index.css">
+<!-- FOR DRAWING BOXES -->
+<body>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <small class="form-text">Format: 123-456-7890</small>
+        </div>
+    </fieldset>
+    <!-- FOR PIZZA INFORMATION -->
+    <header>
+        <label for="num-pizzas">Number of Pizzas:</label>
+        <br>
+        <input type="number" id="num-pizzas" name="num-pizzas" min="1" max="10" required>
+        <br>
+        <label for="pizza-size">Pizza Size:</label>
+        <br>
+        <select id="pizza-size" name="pizza-size" required>
+            <option value="">Select a Size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+
+        </select>
+        <!-- IT GIVES PREFERENCE TO CUSTOMERS -->
+        <h2>Pizza Toppings</h2>
+        <br>
+        <div id="pizza-toppings">
+            <input type="checkbox" id="pepperoni" name="toppings[]" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+            <p></p>
+
+            <input type="checkbox" id="mushrooms" name="toppings[]" value="mushrooms">
+            <label for="mushrooms">Mushrooms</label>
+            <p></p>
+
+            <input type="checkbox" id="onions" name="toppings[]" value="onions">
+            <label for="onions">Onions</label>
+            <p></p>
+
+            <input type="checkbox" id="sausage" name="toppings[]" value="sausage">
+            <label for="sausage">Sausage</label>
+
+            <p></p>
+            <input type="checkbox" id="bacon" name="toppings[]" value="bacon">
+            <label for="bacon">Bacon</label>
+            <p></p>
+        </div>
+        <br>
+        <!-- IT IS MADE FOR ONLINE ORDERING -->
+
+    </header>
+    <br>
+    <main>
+
+        <label for="delivery">Delivery Address:</label>
+        <input type="text" id="delivery" name="delivery"><br><br>
+        <input type="submit" value="Place Order">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- THIS THE STORE INFORMATION -->
+
+    </main>
+    <footer>
+        <br>
+        <p>Contact Us:</p>
+        <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: ritik@pizzarestaurant.com</li>
+            <li>Follow us on social media:</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
