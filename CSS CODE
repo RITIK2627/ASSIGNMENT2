@@ -1,0 +1,174 @@
+
+  /* FOR CSS*/
+
+/* Set font family and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style for  fieldset and legend */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style for FORMGROUPS */
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.form-text {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Style for HEADER */
+header {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+#pizza-toppings {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pizza-toppings input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Style for MAIN */
+main {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Style FOR FOOTER */
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer li a {
+  color: white;
+}
+  
